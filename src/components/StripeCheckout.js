@@ -1,3 +1,6 @@
+// *User's client secret will be loaded initially 
+
+
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { loadStripe } from '@stripe/stripe-js'
