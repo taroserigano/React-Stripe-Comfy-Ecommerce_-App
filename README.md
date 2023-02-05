@@ -1,4 +1,4 @@
-<<STRIPE FLOW>> 
+## STRIPE FLOW
 1. stripe.paymentIntents.create() with total_amount and 
 2. stripe API will return client_secret, grab it. *client_secret is just transaction info  
 3. loadup stripe kit and send card info: stripe.confirmCardPayment() with client_secret 
