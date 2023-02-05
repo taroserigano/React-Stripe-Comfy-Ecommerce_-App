@@ -1,3 +1,10 @@
+
+// this is where you prepare the router 
+// the front-end will send you here the info (through POST) about - 
+// cart, shipping fee, amount in the event.body 
+// then you'd process by stripe.paymentIntents.create() 
+// then you'd return clientSecret: paymentIntent.client_secret to the front-end 
+
 // domain/.netlify/functions/create-payment-intent
 require('dotenv').config()
 
